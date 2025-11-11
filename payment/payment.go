@@ -6,6 +6,6 @@ import (
 	nicholasavocadoadvocate "github.com/rozanlaudzai/nicholas-avocado-advocate"
 )
 
-func pay(fruit nicholasavocadoadvocate.Fruit) (bool, string) {
+func Pay(fruit nicholasavocadoadvocate.Fruit) (bool, string) {
 	return true, fmt.Sprintf("You successfully purchased a %v.", fruit.Name)
 }
