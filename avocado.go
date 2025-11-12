@@ -6,5 +6,5 @@ type Fruit struct {
 }
 
 type Gay struct {
-	size int
+	Size int
 }
