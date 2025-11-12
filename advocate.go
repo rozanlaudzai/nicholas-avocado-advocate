@@ -7,5 +7,6 @@ func ExplainFruit(fruit Fruit) string {
 }
 
 func Lick(fruit Fruit) string {
+	// lick you fruit bruh
 	return fmt.Sprintf("%v is very good!", fruit.Name)
 }
