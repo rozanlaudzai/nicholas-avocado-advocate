@@ -7,5 +7,6 @@ import (
 )
 
 func Pay(fruit nicholasavocadoadvocate.Fruit) (bool, string) {
+	// doc aja sih ini
 	return true, fmt.Sprintf("You successfully purchased a %v.", fruit.Name)
 }
