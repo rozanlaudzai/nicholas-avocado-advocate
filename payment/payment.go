@@ -7,5 +7,5 @@ import (
 )
 
 func Pay(fruit nicholasavocadoadvocate.Fruit) (bool, string) {
-	return true, fmt.Sprintf("You successfully purchased a %v.", fruit.Name)
+	return false, fmt.Sprintf("You successfully purchased a %v with %v acidity.", fruit.Name, fruit.Acidity)
 }
